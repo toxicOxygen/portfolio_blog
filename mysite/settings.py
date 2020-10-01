@@ -25,7 +25,9 @@ SECRET_KEY = 'm_64k&6=@nom49vs^ru=1pkr_wu%mm6-_k^!d(5lu0d#q)-&@='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'toxicoxygen.pythonanywhere.com',
+]
 
 
 # Application definition
