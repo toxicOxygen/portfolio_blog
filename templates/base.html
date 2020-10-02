@@ -48,7 +48,7 @@
         <a class="link-secondary" href="#">Subscribe</a>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Blog</a>
+        <a class="blog-header-logo text-dark" href="/">Blog</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">
@@ -66,21 +66,9 @@
 </div>
 
 <main class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <h3 class="pb-4 mb-4 font-italic border-bottom">
-        From Kinstugi Devs
-      </h3>
 
-      {% block body %}
-      {% endblock body %}
-
-    </div>
-
-    {% block mysidebar %}
-    {% endblock mysidebar %}
-
-  </div><!-- /.row -->
+  {% block body %}
+  {% endblock body %}
 
 </main><!-- /.container -->
 

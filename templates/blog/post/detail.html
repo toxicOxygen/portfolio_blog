@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6 col-sm-10">
+            <div class="blog-post text-center">
+                <h2 class="blog-post-title">{{post.title}}</h2>
+                <p class="blog-post-meta">{{post.publish}} by <a href="#">{{post.author}}</a></p>
+
+                {{post.body}}
+            </div>
+        </div>
+    </div>
+{% endblock body %}

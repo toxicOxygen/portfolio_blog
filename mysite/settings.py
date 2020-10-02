@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'toxicoxygen.pythonanywhere.com',
+    '127.0.0.1'
 ]
 
 
@@ -128,3 +129,10 @@ STATIC_ROOT = Path.joinpath(BASE_DIR,'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = Path.joinpath(BASE_DIR,'media')
+
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'gasmillasuarez@gmail.com' 
+EMAIL_HOST_PASSWORD = 'your_password' 
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
